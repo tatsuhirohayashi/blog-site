@@ -1,0 +1,113 @@
+.header {
+    height: 15vh;
+    background-color: #0d33ff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 15px 15px;
+    max-width: 1230px;
+}
+
+.header-title {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-link {
+    text-align: center;
+    margin: 10px auto 0;
+    font-size: 24px;
+}
+
+.header-link-a {
+    padding: 5px 20px 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* ここまでがヘッダー */
+
+.body {
+    background-color: #f8f8f8;
+}
+
+.body__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.login__content-ttl {
+    margin: 100px auto 0;
+    width: 40%;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 1px #000;
+    border-radius: 5px;
+}
+
+.login__content-header {
+    background-color: #0d33ff;
+    padding: 1px 15px;
+}
+
+.login__content-header-h2 {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.login__content-body {
+    background-color: #ffffff;
+    padding: 20px 30px;
+}
+
+.form {
+    margin: 0 auto;
+}
+
+.form__group {
+    margin-bottom: 10px;
+}
+
+.form__input--text {
+    align-items: center;
+}
+
+.form__input--text-email {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #b8b8b8;
+    padding: 10px 10px;
+}
+
+.form__input--text-password {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #b8b8b8;
+    padding: 10px 10px;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__button {
+    margin: 5px auto 5px;
+    text-align: right;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #0000ff;
+    color: #fff;
+    cursor: pointer;
+}

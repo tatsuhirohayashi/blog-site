@@ -1,0 +1,133 @@
+.header {
+    height: 15vh;
+    background-color: #0d33ff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 15px 15px;
+    max-width: 1230px;
+}
+
+.header-title {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-link {
+    text-align: center;
+    margin: 10px auto 0;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-link-a {
+    padding: 5px 20px 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-link-button {
+    padding: 8px 20px 5px;
+    background-color: #0d33ff;
+    color: #ffffff;
+    border: none;
+    font-size: 24px;
+}
+
+/* ここまでがヘッダー */
+
+.body {
+    background-color: #f8f8f8;
+}
+
+.body__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.body__content-title {
+    font-size: 32px;
+}
+
+.body__content-title-input {
+    width: 80%;
+    font-size: 28px;
+    padding: 5px 10px;
+    border: 2px solid #BDBDB7;
+}
+
+.body__content-img {
+    font-size: 32px;
+}
+
+.body__content-img-preview {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.body__content-img-preview-p {
+    font-size: 24px;
+}
+
+.body__content-img-preview img {
+    width: 250px;
+}
+
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #BDBDB7;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.custom-file-upload {
+    cursor: pointer;
+}
+
+.form__error {
+    height: 15px;
+    color: #ff0000;
+    text-align: left;
+    font-size: 15px;
+}
+
+.body__content-content {
+    font-size: 32px;
+}
+
+.body__content-content-textarea {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 2px solid #BDBDB7;
+}
+
+.body__content-button {
+    display: flex;
+    justify-content: center;
+}
+
+.body__content-submit {
+    font-size: 20px;
+    width: 50%;
+    background-color: #0d33ff;
+    margin-top: 30px;
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px;
+}
