@@ -17,7 +17,7 @@ Blog Site<br>
 
 ## 使用技術（実行環境）
 
-・PHP 8.1
+・PHP 8.1<br>
 ・Laravel 10<br>
 ・MySQL 8.0.26<br>
 
