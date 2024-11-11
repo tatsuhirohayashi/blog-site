@@ -46,7 +46,7 @@ class ArticleController extends Controller
             $article->image_url = 'storage/articles/' . $filename;
         } else {
             // 画像がアップロードされなかった場合の処理
-            $article->image_url = 'storage/no-image.jpg';
+            $article->image_url = 'blogs-images/no-image.jpg';
         }
 
         $article->save();

@@ -58,7 +58,7 @@
                 @enderror
             </div>
             <div class="body__content-button">
-                <button class="body__content-submit">編集する</button>
+                <button class="body__content-submit">更新する</button>
             </div>
         </form>
     </div>

@@ -25,19 +25,19 @@ Blog Site<br>
 
 Dockerビルド<br>
 1.複製する<br>
-###### git clone リンク
+`git clone リンク`<br>
 2.DockerDesktopアプリを立ち上げる<br>
 3.Dockerを起動する<br>
-###### docker-compose up -d --build
+`docker-compose up -d --build`<br>
 
 MySQLは、OSによって起動しない場合があるのでそれぞれのPCに合わせてdocker-compose.ymlファイルを編集してください。<br>
 
 Laravel環境構築<br>
 
 4.phpコンテナに入る<br>
-###### docker-compose exec php bash
+`docker-compose exec php bash`<br>
 5.コンポーザーをインストールする<br>
-###### composer install
+`composer install`<br>
 6.env.exampleファイルから.envを作成し、環境変数を変更する<br>
 
 このときenvファイルの内容は以下としてください。<br>
@@ -47,13 +47,13 @@ DB_USERNAME=laravel_user<br>
 DB_PASSWORD=laravel_pass<br>
 
 7.アプリケーションキーを生成する<br>
-###### php artisan key:generate
+`php artisan key:generate`<br>
 8.マイグレーションを実行する<br>
-###### php artisan migrate
+`php artisan migrate`<br>
 9.シーディングを実行する<br>
-###### php artisan db:seed
+`php artisan db:seed`<br>
 +αストレージリンクを作成する（※必要に応じてコマンドを打ってください。）<br>
-###### php artisan storage:link
+`php artisan storage:link`<br>
 
 ## アカウントの種類（テストユーザー）
 

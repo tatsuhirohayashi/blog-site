@@ -16,7 +16,7 @@ class ArticlesTableSeeder extends Seeder
             'user_id' => 1,
             'title' => 'こちらがブログのタイトル1になります！',
             'content' => 'こちらがブログ1の本文になります。こちらがブログ1の本文になります。こちらがブログ1の本文になります。',
-            'image_url' => 'storage/sushi.jpg',
+            'image_url' => 'blogs-images/sushi.jpg',
         ];
 
         DB::table('articles')->insert($article);
@@ -25,7 +25,7 @@ class ArticlesTableSeeder extends Seeder
             'user_id' => 1,
             'title' => 'こちらがブログのタイトル2になります！',
             'content' => 'こちらがブログ2の本文になります。こちらがブログ2の本文になります。こちらがブログ2の本文になります。',
-            'image_url' => 'storage/italian.jpg',
+            'image_url' => 'blogs-images/italian.jpg',
         ];
 
         DB::table('articles')->insert($article);
@@ -34,7 +34,7 @@ class ArticlesTableSeeder extends Seeder
             'user_id' => 2,
             'title' => 'こちらがブログのタイトル3になります！',
             'content' => 'こちらがブログ3の本文になります。こちらがブログ3の本文になります。こちらがブログ3の本文になります。',
-            'image_url' => 'storage/izakaya.jpg',
+            'image_url' => 'blogs-images/izakaya.jpg',
         ];
 
         DB::table('articles')->insert($article);
@@ -43,7 +43,7 @@ class ArticlesTableSeeder extends Seeder
             'user_id' => 2,
             'title' => 'こちらがブログのタイトル4になります！',
             'content' => 'こちらがブログ4の本文になります。こちらがブログ4の本文になります。こちらがブログ4の本文になります。',
-            'image_url' => 'storage/ramen.jpg',
+            'image_url' => 'blogs-images/ramen.jpg',
         ];
 
         DB::table('articles')->insert($article);

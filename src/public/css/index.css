@@ -107,7 +107,7 @@
 }
 
 .blog__button-update {
-    background-color: #AFDFE4;
+    background-color: #FFEF6C;
     padding: 10px 30px;
     text-decoration: none;
     font-size: 15px;
@@ -116,7 +116,7 @@
 }
 
 .blog__button-delete {
-    background-color: #AFDFE4;
+    background-color: #ff0000;
     padding: 10px 30px;
     text-decoration: none;
     font-size: 15px;

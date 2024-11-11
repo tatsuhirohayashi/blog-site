@@ -80,6 +80,32 @@
 
 .body__content-img-preview img {
     width: 250px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #BDBDB7;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.custom-file-upload {
+    cursor: pointer;
+}
+
+.form__error {
+    height: 15px;
+    color: #ff0000;
+    text-align: left;
+    font-size: 15px;
 }
 
 .body__content-content {
@@ -101,9 +127,9 @@
 .body__content-submit {
     font-size: 20px;
     width: 50%;
-    background-color: #0d33ff;
+    background-color: #ff0000;
     margin-top: 30px;
     border: none;
-    color: #ffffff;
+    color: #000;
     padding: 10px 15px;
 }
