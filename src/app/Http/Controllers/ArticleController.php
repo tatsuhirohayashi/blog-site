@@ -13,22 +13,14 @@ class ArticleController extends Controller
     {
         $articles = Article::all();
 
-        if (Auth::check()) {
-            return view('index', compact('articles'));
-        } else {
-            return view('index', compact('articles'));
-        }
+        return view('index', compact('articles'));
     }
 
     public function detail($id)
     {
         $article = Article::findOrFail($id);
 
-        if (Auth::check()) {
-            return view('detail', compact('article'));
-        } else {
-            return view('detail', compact('article'));
-        }
+        return view('detail', compact('article'));
     }
 
     public function showPost()

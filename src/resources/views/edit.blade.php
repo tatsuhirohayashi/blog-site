@@ -27,7 +27,7 @@
         <form class="form" action="/edit/{{ $article['id'] }}" method="post" enctype="multipart/form-data">
             @method('PATCH')
             @csrf
-            <h2 class="body__content-title">●タイトル</h2>
+            <h2 class="body__content-title"><span class="required">※</span>●タイトル</h2>
             <input class="body__content-title-input" type="text" name="title" value="{{ old('title', $article['title']) }}" placeholder="タイトルを入力してください">
             <div class="form__error">
                 @error('title')
@@ -50,7 +50,7 @@
                 {{ $message }}
                 @enderror
             </div>
-            <h2 class="body__content-content">●本文</h2>
+            <h2 class="body__content-content"><span class="required">※</span>●本文</h2>
             <textarea class="body__content-content-textarea" rows="20" type="text" name="content" placeholder="ブログの本文を入力してください" value="">{{ old('content', $article['content']) }}</textarea>
             <div class="form__error">
                 @error('content')

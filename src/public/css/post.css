@@ -114,3 +114,7 @@
     color: #ffffff;
     padding: 10px 15px;
 }
+
+.required {
+    color: #ff0000;
+}

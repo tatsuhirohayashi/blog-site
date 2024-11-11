@@ -32,10 +32,11 @@ MySQLは、OSによって起動しない場合があるのでそれぞれのPC�
 
 Laravel環境構築
 
-1.docker-compose exec php bash<br>
-2.composer install<br>
-3.env.exampleファイルから.envを作成し、環境変数を変更<br>
-4.php artisan key:generate<br>
+1.phpコンテナに入る<br>
+###### docker-compose exec php bash
+2.コンポーザーをインストールする<br>
+###### composer install
+3.env.exampleファイルから.envを作成し、環境変数を変更する<br>
 
 このときenvファイルの内容は以下としてください。<br>
 DB_HOST=mysql<br>
@@ -43,9 +44,14 @@ DB_DATABASE=laravel_db<br>
 DB_USERNAME=laravel_user<br>
 DB_PASSWORD=laravel_pass<br>
 
-5.php artisan migrate<br>
-6.php artisan db:seed<br>
-+αphp artisan storage:link（※必要に応じてコマンドを打ってください。）<br>
+4.アプリケーションキーを生成する<br>
+###### php artisan key:generate
+5.マイグレーションを実行する<br>
+###### php artisan migrate
+6.シーディングを実行する<br>
+###### php artisan db:seed
++αストレージリンクを作成する（※必要に応じてコマンドを打ってください。）<br>
+###### php artisan storage:link
 
 ## アカウントの種類（テストユーザー）
 

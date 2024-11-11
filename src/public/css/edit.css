@@ -80,6 +80,8 @@
 
 .body__content-img-preview img {
     width: 250px;
+    height: 150px;
+    object-fit: contain;
 }
 
 .file-upload {
@@ -130,4 +132,8 @@
     border: none;
     color: #ffffff;
     padding: 10px 15px;
+}
+
+.required {
+    color: #ff0000;
 }
