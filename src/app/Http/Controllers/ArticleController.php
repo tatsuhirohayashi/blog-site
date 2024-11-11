@@ -27,7 +27,7 @@ class ArticleController extends Controller
         if (Auth::check()) {
             return view('detail', compact('article'));
         } else {
-            return view('index', compact('articles'));
+            return view('detail', compact('article'));
         }
     }
 
