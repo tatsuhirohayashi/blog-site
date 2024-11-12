@@ -1,6 +1,6 @@
 .header {
     height: 160px;
-    background-color: #0d33ff;
+    background-color: #33CC99;
 }
 
 .header__inner {
@@ -49,7 +49,7 @@
 }
 
 .register__content-header {
-    background-color: #0d33ff;
+    background-color: #33CC99;
     padding: 1px 15px;
 }
 
@@ -116,7 +116,7 @@
     width: 20%;
     height: 40px;
     border: none;
-    background-color: #0000ff;
+    background-color: #33CC99;
     color: #fff;
     cursor: pointer;
 }

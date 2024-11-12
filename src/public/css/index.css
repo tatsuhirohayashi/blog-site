@@ -1,6 +1,6 @@
 .header {
     height: 160px;
-    background-color: #0d33ff;
+    background-color: #33CC99;
 }
 
 .header__inner {
@@ -32,10 +32,11 @@
 
 .header-link-button {
     padding: 8px 20px 5px;
-    background-color: #0d33ff;
+    background-color: #33CC99;
     color: #ffffff;
     border: none;
     font-size: 24px;
+    cursor: pointer;
 }
 
 /* ここまでがヘッダー */
@@ -57,12 +58,11 @@
 
 .blog {
     width: 30%;
-    box-shadow: 1px 1px 2px #000;
     background-color: #ffffff;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-bottom: 20px;
     margin-right: 12.015px;
-    height: 520px;
+    height: 500px;
     position: relative;
 }
 
@@ -77,9 +77,14 @@
     padding: 15px;
 }
 
+.blog__content-date {
+    font-size: 15px;
+}
+
 .blog__content-title {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .blog__content-content {

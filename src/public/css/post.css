@@ -1,6 +1,6 @@
 .header {
     height: 160px;
-    background-color: #0d33ff;
+    background-color: #33CC99;
 }
 
 .header__inner {
@@ -32,10 +32,11 @@
 
 .header-link-button {
     padding: 8px 20px 5px;
-    background-color: #0d33ff;
+    background-color: #33CC99;
     color: #ffffff;
     border: none;
     font-size: 24px;
+    cursor: pointer;
 }
 
 /* ここまでがヘッダー */
@@ -78,6 +79,10 @@
     background-color: #ffffff;
 }
 
+.body__content-img-input {
+    cursor: pointer;
+}
+
 .custom-file-upload {
     cursor: pointer;
 }
@@ -113,6 +118,7 @@
     border: none;
     color: #ffffff;
     padding: 10px 15px;
+    cursor: pointer;
 }
 
 .required {

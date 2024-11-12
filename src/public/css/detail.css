@@ -1,6 +1,6 @@
 .header {
     height: 160px;
-    background-color: #0d33ff;
+    background-color: #33CC99;
 }
 
 .header__inner {
@@ -32,10 +32,11 @@
 
 .header-link-button {
     padding: 8px 20px 5px;
-    background-color: #0d33ff;
+    background-color: #33CC99;
     color: #ffffff;
     border: none;
     font-size: 24px;
+    cursor: pointer;
 }
 
 /* ここまでがヘッダー */
@@ -50,20 +51,28 @@
     max-width: 1230px;
 }
 
+.body__content-img {
+    text-align: center;
+}
+
 .body__content-img img {
-    width: 100%;
+    width: 80%;
     height: auto;
     object-fit: contain;
 }
 
 .body__content-title {
-    font-size: 64px;
+    width: 80%;
+    font-size: 35px;
     font-weight: bold;
+    margin: 0 auto;
 }
 
 .body__content-content {
+    width: 80%;
     margin-top: 15px;
-    font-size: 36px;
+    font-size: 20px;
+    margin: 0 auto;
 }
 
 .body__content-back {

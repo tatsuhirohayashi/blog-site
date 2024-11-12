@@ -38,6 +38,7 @@
                     <img src="{{ $article['image_url'] }}" alt="代替画像">
                 </div>
                 <div class="blog__content">
+                    <div class="blog__content-date">{{ $article['updated_at']->format('Y年m月d日') }}</div>
                     <div class="blog__content-title">{{ $article['title'] }}</div>
                     <div class="blog__content-content">{{ mb_substr($article['content'], 0, 30) }}...</div>
                 </div>
